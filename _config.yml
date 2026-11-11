@@ -5,6 +5,7 @@ description: Resources for LTC's Mechatronics/Automation Program 3D printers.
 theme: just-the-docs
 
 url: https://dev-750.github.io
+baseurl: "/printdocs"
 
 aux_links:
   See Github: https://github.com/Dev-750/printdocs
