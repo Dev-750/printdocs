@@ -1,5 +1,8 @@
 ---
-title: Octo Print Setup
+title: OctoPrint Setup
+nav_order: 2
 layout: page
 ---
-How to install Octo Print onto Creator Bot Printer.
+# OctoPrint Setup
+
+How to install and run OctoPrint on Creator Bot Pro Series II 3D Printers.

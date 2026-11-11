@@ -11,14 +11,18 @@ layout: page
     - [Prusa](https://www.prusa3d.com/p/prusaslicer/)
     - [Orca](https://www.orcaslicer.com/)
 
-2. Gather the models you want to slice. We will use a calibration cube for example.
-    *you can download the calibration cube by clicking the download button*
-    [Download](https://github.com/Dev-750/printdocs/tree/main/assets/3d-models/xyzCalibration_cube.stl) {: .btn}
+    We will use Orca Slicer for demonstration
 
-3. Open your Slicer. for this demonstration we will use Orca Slicer
+2. Gather the models you want to slice. We will use a calibration cube for example.
+    
+*you can view and download the calibration cube STL file by clicking the download button*
+
+[Download](/assets/3d-models/xyzCalibration_cube.stl){: .btn}
+
+3. Open your Slicer.
 
 ## Configure Printer Settings
 
-4. 
+4. Click on
 
-*to be continued...
+*to be continued...*

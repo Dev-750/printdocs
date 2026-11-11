@@ -1,6 +1,6 @@
 ---
-title: Turn on the Printer
-parent: Start Here
+title: Power-on Procedure
+parent: START HERE
 nav_order: 1
 layout: page
 ---
