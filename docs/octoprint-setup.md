@@ -8,8 +8,6 @@ layout: page
 
 How to install and run OctoPrint on Creator Bot Pro Series II 3D Printers.
 
----
-
 # Writing the OctoPi Image
 
 ## Materials and Equipment
@@ -38,28 +36,35 @@ How to install and run OctoPrint on Creator Bot Pro Series II 3D Printers.
 - [More instructions on OctoPrint.org](https://octoprint.org/download/)
 - [OctoPi Github](https://github.com/guysoft/OctoPi)
 
----
-
 # Running OctoPrint
 
-Now that OctoPi is on the Pi it will Start the OctoPrint server which can be accessed from a Browser on the same network to control the printer.
+**Equipment**: An external USB-A keyboard or a Windows/Linux machine
 
-1. To access OctoPrint, open your browser and type in one of three options:
+
+Now that OctoPi is on the raspberry Pi it will start the OctoPrint server which can be accessed from a browser on the same network to control the printer.
+
+To access OctoPrint, open your browser and type in one of three options:
 - `http://octopi.local`
 - `http://<custom-hostname>.local`
 - `http://<pi's-IP-address>.local`
 
-Using the IP address seems to work the best. To find it type:
+Using the IP address seems to work the best. To find it type in the Pi's terminal:
+
 ```bash
 hostname -I
 ```
- in the Pi's Terminal. **You will either need a keyboard, SSH, or Putty, etc**
+*If you do not have an external keyboard, you will need to use SSH, or Putty, etc - See below*
 
-To SSH into the Pi type: 
-```bash
-ssh <username>@<hostname.local or IP>
-``` 
-and enter the Password
+> ### Access Pi via Putty on Windows
 
-2. Once the interface loads, create an account.
-3. Now you will see all of your printer's metrics and options and be able to control and print from here.
+> ### Access Pi via SSH on Linux
+> 1. Open the terminal appliation and type: 
+> ```bash
+> 	ssh <username>@<hostname>.local or IP>
+> ``` 
+> *replace `<username>` and `<hostname>` with those you set earlier.*
+> 2. Enter the Pi's user password
+
+Once the interface loads, create an account.
+
+Now you will see all of your printer's metrics and options and be able to control and print from here.
