@@ -9,8 +9,6 @@ url: https://dev-750.github.io
 aux_links:
   See Github: https://github.com/Dev-750/printdocs
   # <button class="btn js-toggle-dark-mode">Dark Mode<button>
-  "Just the Docs on GitHub":
-    - "//github.com/just-the-docs/just-the-docs"
 
 aux_links_new_tab: true
 nav_enabled: true

@@ -1,0 +1,13 @@
+1. Start Here
+	- turn on the printer
+	- Slicing a Model
+2. Operating Printer with OctoPrint
+
+2. OctoPrint Setup
+	- Octo Print
+	- Run Server
+	- Octo Dash
+		- Install
+		- Touch Drivers
+
+
