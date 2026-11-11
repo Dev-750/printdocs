@@ -15,9 +15,9 @@ layout: page
 
 2. Gather the models you want to slice. We will use a calibration cube for example.
     
-*you can view and download the calibration cube STL file by clicking the download button*
+    *you can view and download the calibration cube STL file by clicking the download button*
 
-[Download](/assets/3d-models/xyzCalibration_cube.stl){: .btn}
+    [Download](https://github.com/Dev-750/printdocs/assets/3d-models/xyzCalibration_cube.stl){: .btn .btn-blue}
 
 3. Open your Slicer.
 
