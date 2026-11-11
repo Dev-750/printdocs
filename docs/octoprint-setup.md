@@ -4,6 +4,8 @@ nav_order: 4
 layout: page
 ---
 
+<img src="{{ '/assets/images/OctoPi.svg' | relative_url }}" alt="Screenshot of the dashboard" width="100px" padding="12px">
+
 # OctoPrint Setup
 
 How to install and run OctoPrint on Creator Bot Pro Series II 3D Printers.
@@ -43,28 +45,33 @@ How to install and run OctoPrint on Creator Bot Pro Series II 3D Printers.
 
 Now that OctoPi is on the raspberry Pi it will start the OctoPrint server which can be accessed from a browser on the same network to control the printer.
 
-To access OctoPrint, open your browser and type in one of three options:
-- `http://octopi.local`
-- `http://<custom-hostname>.local`
-- `http://<pi's-IP-address>.local`
+1. To access OctoPrint, open your browser and type in one of three options:
+	- `http://octopi.local`
+	- `http://<custom-hostname>.local`
+	- `http://<raspberrypi-ip>.local`
 
-Using the IP address seems to work the best. To find it type in the Pi's terminal:
+	Using the IP address seems to work the best. To find it type in the Pi's terminal:
 
-```bash
-hostname -I
-```
-*If you do not have an external keyboard, you will need to use SSH, or Putty, etc - See below*
+	```bash
+	hostname -I
+	```
+	*If you do not have an external keyboard, you will need to use SSH, or Putty, etc - See below*
+2. Once the interface loads, create an account.
+3. Now you will see all of your printer's metrics and options and be able to control and print from here.
 
-> ### Access Pi via Putty on Windows
+## Access Pi via Putty on Windows
+1. Open the [Putty application](https://apps.microsoft.com/detail/xpfnzksklbp7rj?hl=en-US&gl=US)
 
-> ### Access Pi via SSH on Linux
-> 1. Open the terminal appliation and type: 
-> ```bash
-> 	ssh <username>@<hostname>.local or IP>
-> ``` 
-> *replace `<username>` and `<hostname>` with those you set earlier.*
-> 2. Enter the Pi's user password
+## Access Pi via SSH on Linux
+1. Open the terminal appliation and type: 
 
-Once the interface loads, create an account.
+	```
+	ssh <username>@<hostname>.local
+	```
+	OR
+	```
+	ssh <username>@<raspberrypi-ip>.local
+	```
+	*replace `<username>` and `<hostname>` or `<raspberrypi-ip>` with your pi's username and hostname or ip respectively.*
 
-Now you will see all of your printer's metrics and options and be able to control and print from here.
+2. Enter the Pi's user password
