@@ -8,6 +8,8 @@ layout: home
 
 **Document No.:** SOP-3DP-001  |  **Revision:** 1.0  |  **Effective Date:** \[Date\] **Owner:** \[Name / Department\]  |  **Approved By:** \[Name\]
 
+<img src="{{ '/assets/images/cb3dpsii.jpg' | relative_url }}" alt="Screenshot of the dashboard" width="100%" padding="12px">
+
 > **Note:** Items in \[brackets\] are site- or material-specific and should be filled in from your CreatorBot manual and filament manufacturer's data sheet before this SOP is issued.
 
 ## 1. Purpose

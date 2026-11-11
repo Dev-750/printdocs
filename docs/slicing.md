@@ -1,7 +1,6 @@
 ---
 title: Slicing a Model
-parent: Start Here
-nav_order: 2
+nav_order: 3
 layout: page
 ---
 # Slicing a Model

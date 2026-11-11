@@ -1,7 +1,6 @@
 ---
 title: Power-on Procedure
-parent: Start Here
-nav_order: 1
+nav_order: 2
 layout: page
 ---
 1. Plug in Printer
