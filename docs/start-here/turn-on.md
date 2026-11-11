@@ -1,6 +1,6 @@
 ---
 title: Power-on Procedure
-parent: START HERE
+parent: Start Here
 nav_order: 1
 layout: page
 ---

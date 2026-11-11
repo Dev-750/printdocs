@@ -1,6 +1,6 @@
 ---
 title: OctoPrint Setup
-nav_order: 2
+nav_order: 3
 layout: page
 ---
 # OctoPrint Setup
