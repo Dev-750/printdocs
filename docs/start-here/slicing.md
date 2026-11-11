@@ -17,7 +17,7 @@ layout: page
     
     *you can view and download the calibration cube STL file by clicking the download button*
 
-    [Download](https://github.com/Dev-750/printdocs/assets/3d-models/xyzCalibration_cube.stl){: .btn .btn-blue}
+    [Download](https://github.com/Dev-750/printdocs/blob/main/assets/3d-models/xyzCalibration_cube.stl){: .btn .btn-blue}
 
 3. Open your Slicer.
 
