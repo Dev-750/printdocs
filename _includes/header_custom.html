@@ -1,0 +1,29 @@
+<button id="theme-toggle" class="btn js-toggle-dark-mode" aria-label="Toggle dark mode">
+  Dark Mode
+</button>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const toggleDarkMode = document.getElementById("theme-toggle");
+    if (!toggleDarkMode) return;
+
+    // 1. Check saved preference or OS system preference
+    const savedTheme = localStorage.getItem("jtd-theme");
+    const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+    const initialTheme = savedTheme || (prefersDark ? "dark" : "light");
+
+    // 2. Apply initial theme and update button text
+    jtd.setTheme(initialTheme);
+    toggleDarkMode.textContent = initialTheme === "dark" ? "Light Mode" : "Dark Mode";
+
+    // 3. Listen for button clicks
+    jtd.addEvent(toggleDarkMode, "click", function () {
+      const currentTheme = jtd.getTheme();
+      const newTheme = currentTheme === "dark" ? "light" : "dark";
+      
+      jtd.setTheme(newTheme);
+      localStorage.setItem("jtd-theme", newTheme);
+      toggleDarkMode.textContent = newTheme === "dark" ? "Light Mode" : "Dark Mode";
+    });
+  });
+</script>

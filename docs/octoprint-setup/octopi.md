@@ -1,7 +1,9 @@
 ---
 title: Octo Pi
 parent: Octo Print Setup
+layout: page
 ---
+
 # Writing the Octo Pi Image
 1. You will need to Format the Raspberry Pi's SD card or get another micro SD (8-32GB). It must be FAT32.
 2. Install the Raspberry Pi Imager. On a debian terminal you can use `sudo apt install rpi-imager`
