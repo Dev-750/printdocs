@@ -1,8 +1,9 @@
 favicon_ico: "/assets/ico/3d-fav.ico"
-logo: "/assets/images/3d-logo.png"
+logo: "/assets/images/3d-logo-dark.png"
 title: LTC 3D Printing SOPs
 description: Resources for LTC's Mechatronics/Automation Program 3D printers.
 theme: just-the-docs
+color_scheme: green
 
 url: https://dev-750.github.io
 baseurl: "/printdocs"
